@@ -1,4 +1,4 @@
-# reacting-to-jeopardy
+# Reacting to Jeopardy
 
 An quiz game inspired by the famous tv show Jeopardy.
 
