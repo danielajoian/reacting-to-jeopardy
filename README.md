@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Reacting to Jeopardy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An quiz game inspired by the famous tv show Jeopardy.
 
-## Available Scripts
+The background music and the colors will make the game experience fun and excited.
 
-In the project directory, you can run:
+To win you have to answer 10 questions right.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The users can test their knowledge by answering one of the question from the original show.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+There is the option where you can choose the way you want to play: with random questions or with questions from a category that you like.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+******
+# Technologies used: 
+* React
+* Node Js
+* Bootstrap
+* CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+******
+# Features 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* The first page is where the fun begins and it looks like this:
 
-### `npm run eject`
+* <img width="836" alt="start" src="https://user-images.githubusercontent.com/57388336/118106054-dc4f4f80-b3e5-11eb-917f-fd027e919343.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* It has an about page where you can watch a short video presentation about the original tv show
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* <img width="783" alt="about" src="https://user-images.githubusercontent.com/57388336/118106246-11f43880-b3e6-11eb-93ee-3f6159613b14.png">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* You can choose to play some music during the game by pressing the button #Play with style!
 
-## Learn More
+* <img width="415" alt="music" src="https://user-images.githubusercontent.com/57388336/118106463-4ec02f80-b3e6-11eb-9676-b9e6d7e941bb.png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* You can choose to play a game with random questions or choose a favorite category
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* <img width="750" alt="select-category" src="https://user-images.githubusercontent.com/57388336/118106628-76af9300-b3e6-11eb-810a-783183c38555.png">
 
-### Code Splitting
+* Here is the list with all the category from the game
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* <img width="655" alt="choose-category" src="https://user-images.githubusercontent.com/57388336/118106816-b2e2f380-b3e6-11eb-8805-8381465e80f9.png">
 
-### Analyzing the Bundle Size
+* After you choose how you want to play, the questions appear on the screen, one by one. You have 10 questions to answer, if you answer all of them corectlly you win and the score is shown on the star in the right part of the screen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* <img width="743" alt="category" src="https://user-images.githubusercontent.com/57388336/118107152-166d2100-b3e7-11eb-89be-18ea99f97998.png">
 
-### Making a Progressive Web App
+* If you don't know an answer or you get it wrong, the right answer will appear in a red box after you submit your answer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* <img width="763" alt="random-category" src="https://user-images.githubusercontent.com/57388336/118107297-40264800-b3e7-11eb-883d-269de2c61e30.png">
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
